@@ -1,0 +1,300 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "Gilroy";
+  src: url("/assets/font/Gilroy-Medium.ttf");
+}
+
+#recommendation {
+  margin-top: 10px;
+  .container {
+    width: 1440px;
+    height: auto;
+    margin: auto;
+  }
+  .recommendation_summary {
+    font-family: "Open Sans";
+    font-style: normal;
+    display: flex;
+    align-items: center;
+    .recommendation_summary_text {
+      width: 432px;
+      height: auto;
+      margin: auto;
+      .recommendation_summary_headling {
+        padding: 20px 0px;
+        margin: 20px auto;
+        h4 {
+          font-weight: 700;
+          font-size: 31px;
+          width: 435px;
+          height: auto;
+          margin: auto;
+          line-height: 51px;
+          .arrow-right {
+            width: 100px;
+            height: 36px;
+          }
+        }
+      }
+      .recommendation_reason {
+        margin-top: 20px;
+        padding-top: 15px;
+        .reason_summary {
+          font-weight: 400;
+          font-size: 13px;
+          line-height: 22px;
+          color: #adaeaf;
+          margin-top: 10px;
+        }
+        .reason_summary_text {
+          font-weight: 400;
+          font-size: 13px;
+          line-height: 18px;
+          width: 466px;
+          display: flex;
+          padding-top: 20px;
+          align-items: center;
+          gap: 25px;
+          .quote-right {
+            display: block;
+            width: 44px;
+            height: 31px;
+          }
+        }
+      }
+    }
+    .feedback {
+      width: 50%;
+      height: auto;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      padding-left: 15px;
+      padding-top: 20px;
+      .feedback-card {
+        padding-top: 20px;
+
+        .stars {
+          width: 102px;
+          height: auto;
+        }
+        .feedback-card-text {
+          width: 272px;
+          padding: 16px 9px;
+          background: #f5f5f5;
+          border-radius: 24px;
+          font-size: 12px;
+          color: #111112;
+          height: 100px;
+          .feedback-author {
+            font-weight: 600;
+          }
+          .feedback-summary {
+            padding: 5px 0px;
+            line-height: 15px;
+            color: #adaeaf;
+            font-weight: 400;
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 1080px) and (max-width: 1439px) {
+  #recommendation {
+    margin-top: 10px;
+    .container {
+      width: 1050px;
+      height: auto;
+      margin: auto;
+    }
+    .recommendation_summary {
+      font-family: "Open Sans";
+      font-style: normal;
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      .recommendation_summary_text {
+        width: 288px;
+        height: auto;
+        margin: auto;
+        .recommendation_summary_headling {
+          padding: 20px 0px;
+          margin: 20px auto;
+          h4 {
+            font-weight: 700;
+            font-size: 21px;
+            width: 290px;
+            height: auto;
+            margin: auto;
+            line-height: 34px;
+            .arrow-right {
+              width: 67px;
+              height: 24px;
+            }
+          }
+        }
+        .recommendation_reason {
+          margin-top: 20px;
+          padding-top: 15px;
+          .reason_summary {
+            font-weight: 400;
+            font-size: 9px;
+            line-height: 15px;
+            color: #adaeaf;
+            margin-top: 10px;
+          }
+          .reason_summary_text {
+            font-weight: 500;
+            font-size: 9px;
+            width: 336px;
+            display: flex;
+            padding-top: 20px;
+            align-items: center;
+            gap: 25px;
+            line-height: 15px;
+
+            .quote-right {
+              display: block;
+              width: 29px;
+              height: 21px;
+            }
+          }
+        }
+      }
+      .feedback {
+        width: 50%;
+        height: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding-left: 0px;
+        column-gap: 16px;
+        padding-top: 20px;
+        .feedback-card {
+          padding-top: 20px;
+          .stars {
+            width: 68px;
+            height: auto;
+          }
+          .feedback-card-text {
+            width: auto;
+            padding: 16px 9px;
+            background: #f5f5f5;
+            border-radius: 24px;
+            font-size: 11px;
+            color: #111112;
+            height: 100px;
+            .feedback-author {
+              font-weight: 600;
+            }
+            .feedback-summary {
+              padding: 5px 0px;
+              line-height: 15px;
+              color: #adaeaf;
+              font-weight: 400;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media only screen and (min-width: 376px) and (max-width: 450px) {
+  #recommendation {
+    margin-top: 10px;
+    .container {
+      width: 375px;
+      height: auto;
+      margin: auto;
+    }
+    .recommendation_summary {
+      font-family: "Open Sans";
+      font-style: normal;
+      display: flex;
+      align-items: center;
+      .recommendation_summary_text {
+        width: 144px;
+        height: auto;
+        margin: auto;
+        .recommendation_summary_headling {
+          padding: 20px 0px;
+          margin: 20px auto;
+          h4 {
+            font-weight: 700;
+            font-size: 10px;
+            width: 144px;
+            height: auto;
+            margin: auto;
+            line-height: 17px;
+            .arrow-right {
+              width: 33px;
+              height: 12px;
+            }
+          }
+        }
+        .recommendation_reason {
+          margin-top: 20px;
+          padding-top: 15px;
+          .reason_summary {
+            font-weight: 400;
+            font-size: 4px;
+            line-height: 7px;
+            color: #adaeaf;
+            margin-top: 10px;
+          }
+          .reason_summary_text {
+            font-weight: 400;
+            font-size: 4px;
+            line-height: 6px;
+            width: 156px;
+            display: flex;
+            padding-top: 20px;
+            align-items: center;
+            gap: 8px;
+            .quote-right {
+              display: block;
+              width: 15px;
+              height: 10px;
+            }
+          }
+        }
+      }
+      .feedback {
+        width: 50%;
+        height: auto;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding-left: 15px;
+        padding-top: 20px;
+        .feedback-card {
+          padding-top: 20px;
+          .stars {
+            width: 34px;
+            height: auto;
+          }
+          .feedback-card-text {
+            width: 91px;
+            padding: 16px 9px;
+            background: #f5f5f5;
+            border-radius: 24px;
+            font-size: 4px;
+            color: #111112;
+            height: 33px;
+            .feedback-author {
+              font-weight: 600;
+            }
+            .feedback-summary {
+              padding: 5px 0px;
+              line-height: 5px;
+              color: #adaeaf;
+              font-weight: 400;
+            }
+          }
+        }
+      }
+    }
+  }
+}
